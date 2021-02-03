@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* General */
+body {
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    /* Make overall page vertical */
+    flex-flow: column wrap;
+    justify-content: space-between;
+      }
+
+/* unvisited link */
+a:link {
+    color:white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: yellow;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: purple;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+/* Header */
+header {
+    
+    background-color: firebrick;
+    padding: 2rem;
+    
+}
+
+header ul {
+    
+    
+}
+
+header ul li {
+ list-style-type: none;
+ padding: 0.5rem;   
+}
+
+main {
+   
+
+}
+
+.site-section {
+   
+    background-color: saddlebrown;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 25%;
+}
+
+.site-section h2 {
+    background-color: seagreen;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.project-section {
+    margin: 0.5rem;
+  
+}
+
+
+
+
+
+footer {
+    
+    background-color: firebrick;
+    padding: 1.5rem;
+}
