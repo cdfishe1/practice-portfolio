@@ -12,7 +12,7 @@ body {
     /* Make overall page vertical */
     flex-flow: column wrap;
     justify-content: space-between;
-      }
+}
 
 /* unvisited link */
 a:link {
@@ -62,7 +62,7 @@ main {
     background-color: saddlebrown;
     margin: 0.5rem;
     padding: 0.5rem;
-    width: 25%;
+    
 }
 
 .site-section h2 {
@@ -81,7 +81,7 @@ main {
 
 
 footer {
-    
+    text-align: center;
     background-color: firebrick;
     padding: 1.5rem;
 }
