@@ -12,6 +12,7 @@ body {
     /* Make overall page vertical */
     flex-flow: column wrap;
     justify-content: space-between;
+
 }
 
 /* unvisited link */
@@ -36,15 +37,20 @@ a:link {
 
 /* Header */
 header {
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color: firebrick;
     padding: 2rem;
     
 }
 
+header h1 {
+
+}
+
 header ul {
-    
-    
+    display: flex;
 }
 
 header ul li {
