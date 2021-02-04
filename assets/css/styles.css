@@ -8,11 +8,7 @@
 body {
     background-color: darkslategray;
     color: white;
-    display: flex;
-    /* Make overall page vertical */
-    flex-flow: column wrap;
-    justify-content: space-between;
-
+    
 }
 
 /* unvisited link */
@@ -27,7 +23,7 @@ a:link {
   
   /* mouse over link */
   a:hover {
-    color: purple;
+    color:crimson;
   }
   
   /* selected link */
@@ -40,34 +36,45 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: firebrick;
+    background-image: url("../images/header.jpg");
     padding: 2rem;
+    width: 100%;
     
 }
 
 header h1 {
-
+    
+    background-color: sienna;
+    padding: 0.5rem;
 }
 
-header ul {
-    display: flex;
+nav {
+    /* margin: 1rem; */
 }
 
-header ul li {
- list-style-type: none;
- padding: 0.5rem;   
+nav ul {
+    margin: 1rem;
+    padding-right: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 0.5rem;
 }
 
 main {
-   
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .site-section {
-   
     background-color: saddlebrown;
     margin: 0.5rem;
     padding: 0.5rem;
+    width: 25rem;
+    border-radius: 8px;
     
 }
 
@@ -75,19 +82,13 @@ main {
     background-color: seagreen;
     text-align: center;
     padding: 0.5rem;
-}
-
-.project-section {
     margin: 0.5rem;
-  
+    border-radius: 8px;
 }
-
-
-
-
 
 footer {
     text-align: center;
-    background-color: firebrick;
+    background-color:slateblue;
     padding: 1.5rem;
+    width: 100%;
 }
