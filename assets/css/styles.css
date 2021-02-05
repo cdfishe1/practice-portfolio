@@ -6,8 +6,8 @@
 
 /* General */
 body {
-    background-color: darkslategray;
-    color: white;
+    background-color: #0077B6;
+    color: 03045E;
     
 }
 
@@ -36,7 +36,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-image: url("../images/header.jpg");
+    background-color: #012A4A;
     padding: 2rem;
     width: 100%;
     
@@ -44,7 +44,8 @@ header {
 
 header h1 {
     
-    background-color: slateblue;
+    background-color: #2C7DA0;
+    color: #A9D6E5;
     padding: 0.5rem;
     border-radius: 8px;
 }
@@ -80,22 +81,25 @@ main {
 }
 /* Style shared by all main category boxes */
 .main-box {
-    background-color: steelblue;
+    background-color: #012A4A;
+    color: #A9D6E5;
 }
 
 .main-box h2 {
-    background-color:rebeccapurple;
+    background-color: #2C7DA0;
+    color: #A9D6E5;
     text-align: center;
 }
 
 /* Style shared by all sub-boxes inside main boxes */
 .sub-box {
-    background-color: black;
+    background-color: #00B4D8;
+    color: #012A4A;
 }
 
 .sub-box h3 {
-    background-color: goldenrod;
-    color: rebeccapurple;
+    background-color: #0077B6;
+    color: #A9D6E5;
     text-align: center;
 }
 
@@ -103,7 +107,8 @@ main {
 /* footer */
 footer {
     text-align: center;
-    background-color:slateblue;
+    background-color: #012A4A;
+    color: #A9D6E5;
     padding: 1.5rem;
     width: 100%;
 }
