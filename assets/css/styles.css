@@ -81,13 +81,13 @@ main {
 }
 /* Style shared by all main category boxes */
 .main-box {
-    background-color: #012A4A;
-    color: #A9D6E5;
+    background-color: #00B4D8;
+    color: #012A4A;
 }
 
 .main-box h2 {
     background-color: #0077B6;
-    color: #A9D6E5;
+    color: #90E0EF;
     text-align: center;
 }
 
@@ -99,7 +99,7 @@ main {
 
 .sub-box h3 {
     background-color: #0077B6;
-    color: #A9D6E5;
+    color: #90E0EF;
     text-align: center;
 }
 
