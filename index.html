@@ -7,7 +7,8 @@
     <title>Charles Fisher Web Solutions</title>
 </head>
 <body>
-    <!-- Header with nav -->
+    <div class="site-container">
+        <!-- Header with nav -->
     <header>
         <h1>Charles Fisher Web Solutions</h1>
             <nav>
@@ -49,6 +50,14 @@
                 <p>CSS</p>
                 <p>Javascript</p>
             </section>
+
+             <!-- Services -->
+             <aside id="services" class="page-box main-box">
+                <h2 class="page-box">Services</h2>
+                <p>Design</p>
+                <p>Development</p>
+                <p>SEO</p>
+            </aside>
             
             <!-- About Me -->
             <section id="aboutMe" class="page-box main-box">
@@ -63,21 +72,17 @@
                 <p>Email</p>
                 <p>Website</p>
             </section>
-
-            <!-- Services -->
-            <aside id="services" class="page-box main-box">
-                <h2 class="page-box">Services</h2>
-                <p>Design</p>
-                <p>Development</p>
-                <p>SEO</p>
-            </aside>
                 
             <!-- Testimonials -->
             <aside id="praise" class="page-box main-box">
                 <h2 class="page-box">Testimonials</h2>
                 <section id="praise1" class="page-box sub-box">
                     <h3 class="page-box">Acme Construction</h3>
-                    <p>I refactored Horiseon's landing page in order to make it accessible to search engines and to reduce redundancy in the CSS.</p>
+                    <figure>
+                        <img src="../practice-portfolio/assets/images/acme-ceo.jpg" alt="Amartya Singh CEO of Acme Construction" class="praise-pic">
+                        <figcaption>Amartya Singh CEO</figcaption>
+                    </figure>
+                    <p class="praise-text">Charles redesigned our site to be responsive to new mobile technologies and enhanced our SEO to lessen our advertising costs.</p>
                 </section>
 
                 <section id="praise2" class="page-box sub-box">
@@ -91,11 +96,14 @@
                 </section>
             </aside>
         </main>
+   
+    
     
         <!-- footer -->
         <footer>
             <h2>Charles Fisher Web Solutions &#169; 2021</h2>
         </footer>
+    </div>
     
     
     

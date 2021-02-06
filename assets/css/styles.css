@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+.site-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* General */
 body {
@@ -31,11 +35,12 @@ a:link {
     color: blue;
   }
 
-/* Header */
+  /* Header */
 header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex: 1 0 0;
     background-color: #012A4A;
     padding: 2rem;
     width: 100%;
@@ -67,9 +72,7 @@ nav ul li {
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    
     
 }
 
@@ -83,6 +86,7 @@ main {
 .main-box {
     background-color: #00B4D8;
     color: #012A4A;
+    flex: 1 0 0;
 }
 
 .main-box h2 {
@@ -95,6 +99,7 @@ main {
 .sub-box {
     background-color: #90E0EF;
     color: #012A4A;
+    flex: 1 0 0;
 }
 
 .sub-box h3 {
@@ -103,9 +108,19 @@ main {
     text-align: center;
 }
 
+.praise-pic {
+    float: left;
+}
+
+.praise-pic figcaption {
+    float: right;
+
+}
+
 
 /* footer */
 footer {
+    flex: 1 0 0;
     text-align: center;
     background-color: #012A4A;
     color: #A9D6E5;
